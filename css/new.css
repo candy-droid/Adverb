@@ -20570,7 +20570,7 @@ input:-webkit-autofill:hover {
 }
 
 .breadcrumb-area {
-    background-image: url(/images/breadcrumb.png);
+    background-image: url(https://apart-next.vercel.app/images/breadcrumb.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -21352,6 +21352,11 @@ input:-webkit-autofill:hover {
 .showcase-box.showcase-box-dark .showcase-img img {
     filter: grayscale(1)
 }
+
+.media .showcase-img img {
+    filter: none !important;
+}
+
 
 .showcase-box.showcase-box-dark .showcase-content a,
 .showcase-box.showcase-box-dark .showcase-content h2 {
